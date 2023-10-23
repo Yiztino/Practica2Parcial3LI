@@ -25,12 +25,6 @@ p {
   color: rgb(0, 0, 0);
 }
 
-#titulo {
-  background-color: #EBE3B1; /*#DAD8A8*/
-  color: #59582F;
-  text-align: center;
-}
-
 .container {
   max-width: 1024px;
   margin-left: auto;
@@ -72,4 +66,13 @@ a:hover {
 
 .img-smaller{
   max-width: 10%;
+}
+.navbar {
+  background-color: #94820a;
+}
+.top-header{
+  height: 25px;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid rgb(183, 183, 183);
 }

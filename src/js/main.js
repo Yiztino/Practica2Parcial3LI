@@ -15,7 +15,7 @@ document.addEventListener("click", (e) => {
     return false;
   }
 
-  alert(`Se activara el tema ${e.target.dataset.name}`);
+  //alert(`Se activara el tema ${e.target.dataset.name}`);
   document.getElementById("css-theme").href = e.target.dataset.theme;
 });
 //Para obtener la info del JSON

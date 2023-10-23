@@ -65,3 +65,13 @@ a:hover {
 .img-smaller{
   max-width: 10%;
 }
+
+.navbar {
+  background-color: #ece8cb !important;
+}
+.top-header{
+  height: 25px;
+  width: 100%;
+  background-color: #EBE3B1;
+  border: 1px solid black;
+}
