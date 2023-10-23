@@ -1,9 +1,92 @@
 html {
     background-color: black;
     color: white;
+    font-family: anonymus ;
+    font-size: 16px;
 }
 #titulo {
-    background-color: #222222; /*#DAD8A8*/
+    background-color: rgb(56, 54, 38); /*#DAD8A8*/
     color: #ffffff;
     text-align: center;
-  }
+}
+body {
+  background-color: rgb(56, 54, 38);
+  color: #b5b49e;
+  /*font-family: "Inter", sans-serif;*/
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+a {
+  color:#f8f8f8;
+}
+
+a:hover {
+  color:#8b95b9;
+}
+
+.img-smaller{
+  max-width: 10%;
+}
+.navbar {
+    background-color: rgb(98, 96, 78) !important;
+    color: #0000ff;
+}
+.navbar-brand{
+    color: rgb(185, 231, 0);
+}
+.nav-item{
+    color: #b5b49e;
+}
+.nav-link{
+    color: #b5b49e;
+}
+.nav-link{
+    color: #b5b49e;
+}
+.top-header{
+    height: 25px;
+    width: 100%;
+    background-color: rgb(56, 54, 38);
+    border: 1px solid black;
+}
+.container-fluid header nav ul li a{
+    color: orange !important;
+}

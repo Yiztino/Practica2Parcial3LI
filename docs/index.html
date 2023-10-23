@@ -18,8 +18,9 @@
     <link id="css-theme" rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <div class="top-header"></div>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: #e3f2fd;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="img/NormalYL.jpg" class="text-left" alt="Logo de Yiztino Lunois" width="30" height="40">
@@ -73,7 +74,7 @@
             name="theme-color"
             type="radio"
             id="radio-dark"
-            data-theme="css/dark.css"
+            data-theme="./css/dark.css"
             data-name="dark"
           />
           <label for="radio-dark">Tema obscuro</label>
@@ -83,15 +84,15 @@
             name="theme-color"
             type="radio"
             id="radio-light"
-            data-theme="css/light.css"
+            data-theme="./css/light.css"
             data-name="light"
           />
           <label for="radio-light">Tema claro</label>
         </div>
       </form>
       <br>
-      <details>
-        <summary>Índice</summary>
+      <details  class="row my-5" >
+        <summary >Índice</summary>
         <ul>
             <li><a href="#origen" class="index">El origen de la filosofía Estoica</a></li>
             <li><a href="#principios" class="index">Los principios de la filosofía estoica</a></li>
@@ -114,7 +115,7 @@
         se vuelve muy importante recordar a la filosofía como un medio para vivir mejor y ser mejores.
       </p>
 
-      <div class="container text-center" id="origen">
+      <div class="container text-left" id="origen">
         <h2>El origen de la filosofía estoica</h2>
         <p>
           La filosofía estoica, una de las escuelas filosóficas más influyentes de la antigua Grecia y Roma,
