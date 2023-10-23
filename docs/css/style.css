@@ -54,6 +54,10 @@ p {
   font-size: 12px;
 }
 
+.fs-24 {
+  font-size: 24px;
+}
+
 a {
   color:#6C5C84;
 }
@@ -73,5 +77,18 @@ a:hover {
   height: 25px;
   width: 100%;
   background-color: #EBE3B1;
-  border: 1px solid black;
+ 
+}
+
+#indice{
+  color: #074713;
+}
+
+#footer{
+  background-color: #C5C78F;
+  color:#5F611F;
+}
+
+.color-adoc{
+  color: #59582F;
 }

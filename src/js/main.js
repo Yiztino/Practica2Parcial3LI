@@ -24,20 +24,23 @@ async function obtenerDatos() {
   let datos = await respuesta.json();
 
   let $nombresFilos = document.querySelector("#nomFilos");
-  let tabla = "<table border='1'>";
+  let tabla = "<table class='table table-striped table-bordered'>";
   tabla += `
-    <tr>
-      <th>Nombre</th>
-      <th>Descripción</th>
-      <th>Imagen</th>
-    </tr>
+    <thead class='thead-dark'>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
   `;
   datos.filosofos.forEach(filosofo => {
     tabla += `
       <tr>
         <td>${filosofo.nombre}</td>
         <td>${filosofo.descripcion}</td>
-        <td><img src="${filosofo.imagen}" alt="${filosofo.nombre}" width="100" height="100"></td>
+        <td><img src="${filosofo.imagen}" alt="${filosofo.nombre}" class="img-thumbnail" style="max-width: 100px; max-height: 100px;">
+        </td>
       </tr>
     `;
   });
@@ -48,7 +51,6 @@ async function obtenerDatos() {
 
   console.log(datos);
 }
-
 
 
 

@@ -1,15 +1,8 @@
 html {
-    background-color: #EBE3B1; /*#DAD8A8*/
-    color: #59582F;
-    font-family: anonymus ;
-    font-size: 16px;
+  font-family: anonymus ;
+  font-size: 16px;
 }
-#titulo {
-    background-color: #EBE3B1; /*#DAD8A8*/
-    color: #59582F;
-    text-align: center;
-}
-  
+
 body {
   background-color: #fafbdc;
   color: #59582F;
@@ -22,6 +15,12 @@ img {
 
 p {
   color: rgb(0, 0, 0);
+}
+
+#titulo {
+  background-color: #EBE3B1; /*#DAD8A8*/
+  color: #59582F;
+  text-align: center;
 }
 
 .container {
@@ -55,6 +54,10 @@ p {
   font-size: 12px;
 }
 
+.fs-24 {
+  font-size: 24px;
+}
+
 a {
   color:#6C5C84;
 }
@@ -66,12 +69,26 @@ a:hover {
 .img-smaller{
   max-width: 10%;
 }
+
 .navbar {
-    background-color: #ece8cb !important;
+  background-color: #ece8cb !important;
 }
 .top-header{
-    height: 25px;
-    width: 100%;
-    background-color: #EBE3B1;
-    border: 1px solid black;
+  height: 25px;
+  width: 100%;
+  background-color: #EBE3B1;
+ 
+}
+
+#indice{
+  color: #074713;
+}
+
+#footer{
+  background-color: #C5C78F;
+  color:#5F611F;
+}
+
+.color-adoc{
+  color: #59582F;
 }

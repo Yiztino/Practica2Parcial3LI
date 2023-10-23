@@ -20,7 +20,7 @@ img {
 }
 
 p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .container {
@@ -78,15 +78,19 @@ a:hover {
 .nav-link{
     color: #b5b49e;
 }
-.nav-link{
-    color: #b5b49e;
-}
+
 .top-header{
     height: 25px;
     width: 100%;
     background-color: rgb(56, 54, 38);
-    border: 1px solid black;
+  
 }
 .container-fluid header nav ul li a{
     color: orange !important;
+}
+#indice{
+  color: #bfffcb;
+}
+.fs-24 {
+  font-size: 24px;
 }

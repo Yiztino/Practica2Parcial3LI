@@ -74,5 +74,20 @@ a:hover {
   height: 25px;
   width: 100%;
   background-color: #ffffff;
-  border: 1px solid rgb(183, 183, 183);
+
+}
+#indice{
+  color: #0549b7;
+}
+.fs-24 {
+  font-size: 24px;
+}
+
+#footer{
+  background-color: #F9FADC;
+  color:#9fa076;
+}
+
+.color-adoc{
+  color: #59582F;
 }
