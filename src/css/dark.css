@@ -1,0 +1,9 @@
+html {
+    background-color: black;
+    color: white;
+}
+#titulo {
+    background-color: #222222; /*#DAD8A8*/
+    color: #ffffff;
+    text-align: center;
+  }

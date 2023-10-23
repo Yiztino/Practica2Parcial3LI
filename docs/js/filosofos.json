@@ -1,0 +1,30 @@
+{
+    "filosofos": [
+      {
+        "nombre": "Zenon de citio",
+        "descripcion": "Descripción de Zenon de citio",
+        "imagen": "./img/zenon.jpg"
+      },
+      {
+        "nombre": "Marco Aurelo",
+        "descripcion": "Descripción de Marco Aurelo",
+        "imagen": "./img/marcoAurelioFrase.jpg"
+      },
+      {
+        "nombre": "Crisipo",
+        "descripcion": "Descripción de Crisipo",
+        "imagen": "./img/crisipo.jpg"
+      },
+      {
+        "nombre": "Epicteto",
+        "descripcion": "Descripción de Epicteto",
+        "imagen": "./img/epictetoFrase.jpg"
+      },
+      {
+        "nombre": "Lucio Anneo Séneca",
+        "descripcion": "Descripción de Lucio Anneo Séneca",
+        "imagen": "./img/seneca.jpg"
+      }
+    ]
+  }
+  
